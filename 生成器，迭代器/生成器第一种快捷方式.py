@@ -1,0 +1,10 @@
+L = [X * X for X in range(10)]
+print(L)
+g = (X * X for X in range(10))
+print(g)
+print(g.__next__())
+print(g.__next__())
+print(g.__next__())
+print(g.__next__())
+print(g.__next__())
+print(g.__next__())
